@@ -1,0 +1,29 @@
+{
+  "name": "barbershop",
+  "version": "1.0.0",
+  "description": "Portolio HTML-Academy Barbershop",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PavalEscoba/barbershop.git"
+  },
+  "keywords": [
+    "Portfolio",
+    "Barbershop"
+  ],
+  "author": "Paval Miatltski",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PavalEscoba/barbershop/issues"
+  },
+  "homepage": "https://github.com/PavalEscoba/barbershop#readme",
+  "devDependencies": {
+    "browser-sync": "^2.18.6",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-sass": "^3.0.0"
+  }
+}

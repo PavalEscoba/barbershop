@@ -1,0 +1,17 @@
+@font-face{
+	font-family: "PT Regular";
+	src: url('/fonts/PT_Sans-Narrow-Web-Regular.ttf');
+}
+@font-face {
+	font-family:"PT Bold";
+	src: url('/fonts/PT_Sans-Narrow-Web-Bold.ttf');
+}
+
+@mixin font($style){
+	@if $style==regular{
+		font-family: "PT Regular";
+	}
+	@else if $style==bold{
+		font-family: "PT Bold";
+	}
+}

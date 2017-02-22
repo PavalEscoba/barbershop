@@ -1,0 +1,46 @@
+%clearfix{
+	&:after,&:before{
+		content:"";
+		display: table;
+	}
+	&:after{
+		clear: both;
+	}
+}
+@mixin clear{
+	&::before, &::after{
+		display: table;
+		content: '';
+	}
+	&:after{
+		clear: both;
+	}
+}
+@mixin container-fluid{
+	width: auto;
+	@media($tablet){
+		width: 84%;
+		max-width: 960px;
+		margin: 0 auto;
+	}
+}
+
+@mixin inline($valign: top){
+	display: inline-block;
+	vertical-align: $valign;
+}
+
+@mixin links($link, $visit, $hover, $active){
+	&{
+		color: $link;
+		&:visited{
+			color: $visited;
+		}
+		&:hover{
+			color: $hover;
+		}
+		&:active, &:focus{
+			color:active;
+		}
+	}
+}

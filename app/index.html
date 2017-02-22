@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+
+<!--[if lt IE 7]>      <html class="lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html> <!--<![endif]-->
+
+<!-- <html lang="ru-RU"> -->
+<head> 
+	<meta charset="UTF-8">
+	<title>BarberShop</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+	<link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&amp;subset=cyrillic" rel="stylesheet">
+	<link href="" rel="shortcut icon" type="image/x-icon">
+	<link rel="stylesheet" href="css/main.css">
+	
+</head>
+<body>
+<!--[if lt IE 9]>
+		<h1>Я виден только в IE-9 и ниже</h1>
+		<![endif]-->
+		<div class="wrapper">
+			<header class="page-header">
+				<div class="page-header__logo">
+					<img src="/img/svg/logo.svg" alt="Логотип Бородинский">
+				</div>
+				<nav class="main-nav">
+					<button class="main-nav__toggle main-nav__toggle--closed"></button>					
+					<div class="main-nav__wrapper main-nav__wrapper--closed  ">
+						<ul class="main-nav__items">
+							<li class="main-nav__item main-nav__item--active main-nav__item--active-shown"><a href=""> Главная</a></li>
+							<li class="main-nav__item"><a href="">Наши работы</a></li>
+							<li class="main-nav__item"><a href="">Записаться</a></li>
+							<li class="main-nav__item"><a href="">Контакты </a></li>
+							<li class="main-nav__item"><a href="">HTML-Academy</a></li>
+						</ul>
+						<div class="main-nav__user-nav">
+							<a href="" class="main-nav__user-login" title="Enter">Enter</a>
+						</div>
+					</div> <!-- end of main-nav__wrapper -->
+				</nav> <!-- end of main-nav -->
+			</header>
+			<main class="page-main">
+				<section class="promo-stats">					
+					<header class="promo-stats__header">
+						<b class="promo-stats__slogan">Стрижка у нас<br> это выгодно</b>
+						<p class="promo-stats__intro">Мужская стрижка требует точного подхода. Обратимся к статистике</p>	
+						<small class="promo-stats__legend promo-stats__legend--top"><sup>*</sup> — приведённые данные ложь</small>					
+					</header> <!-- end of promo-stats__header -->
+					<table class="promo-stats__list">							
+						<tr>
+							<td class="promo-stats__value">1500 <sup>*</sup> </td>
+							<td class="promo-stats__field">рублей вложений</td>
+						</tr>
+						<tr>
+							<td class="promo-stats__value">7200</td>
+							<td class="promo-stats__field">секунд времени мастера</td>
+						</tr>
+						<tr>
+							<td class="promo-stats__value">90000</td>
+							<td class="promo-stats__field">постриженных волос</td>
+						</tr>
+						<tr>
+							<td class="promo-stats__value">500 000</td>
+							<td class="promo-stats__field">лайков и комплиментов</td>
+						</tr>						
+					</table>
+					<small class="promo-stats__legend promo-stats__legend--bottom"><sup>*</sup> — приведённые данные ложь</small>				
+				</section> <!-- end of promo-stats -->
+				<section class="advantages">
+					<div class="advantages__wrapper">						
+						<div class="advantages__items">
+							<input type="radio" class="slider-nav__switcher" name="advantages" id="advantages-radio-1" checked>
+							<input type="radio" class="slider-nav__switcher" name="advantages" id="advantages-radio-2">
+							<input type="radio" class="slider-nav__switcher" name="advantages" id="advantages-radio-3">
+							<div class="advantages__item advantages__item--fast">
+								<b class="advantages__name">Быстро</b>
+								<p>Мы делаем свою работу быстро! Два часа пролетят незаметно и вы — счастливый обладатель стильной стрижки-минутки.</p>	
+							</div>
+							<div class="advantages__item advantages__item--cool">
+								<b class="advantages__name">Круто</b>
+								<p>Забудьте, как вы стриглись раньше. Мы сделаем из вас звезду футбола или кино. Во всяком случае внешне.</p>	
+							</div>
+							<div class="advantages__item advantages__item--pricy">
+								<b class="advantages__name">Дорого</b>
+								<p>Наши мастера — профессионалы своего дела и не могут стоить дёшево. К тому же, разве цена не даёт определённый статус?</p>	
+							</div>
+							<div class="slider-nav advantages__nav">
+								<label for="advantages-radio-1" class="slider-nav__btn">1</label>
+								<label for="advantages-radio-2" class="slider-nav__btn">2</label>
+								<label for="advantages-radio-3" class="slider-nav__btn">3</label>
+							</div>
+						</div>	<!-- end of advantages__items -->					
+					</div><!-- end of advantages__wrapper -->
+				</section><!--  end of advantages -->
+				<section class="news">
+					<div class="news__wrapper">						
+						<h2 class="news__title">Новости и акции</h2>
+						<div class="news__items">
+							<article class="news__item">
+								<a href="#">Нам наконец-то завезли Егермейстер! Теперь вы можете пропустить стаканчик во время стрижки.</a>								
+								<time class="news__date" datetime="2015-09-29"><b>29</b> сент</time>
+							</article>
+							<article class="news__item">
+								<a href="#">В нашей команде пополнение, Борис «Бритва» Стригунец, обладатель множества титулов и наград пополнил наши стройные ряды. Спешите записаться!</a>			
+								<time class="news__date" datetime="2015-09-19"><b>19</b> сент</time>
+							</article>
+							<article class="news__item">
+								<a href="#">Всё дорожает, а наши стрижки нет! Как так? Приходите, постригитесь и узнаете, в чём здесь подвох!</a>								
+								<time class="news__date" datetime="2015-09-09"><b>9</b> сент</time>
+							</article>
+						</div> <!-- end of news__items -->
+						<a class="news__to-all btn" href="">Показать все</a>						
+					</div>
+				</section> <!-- end of news -->
+				<section class="reviews">
+					<div class="reviews__wrapper">
+						<h2 class="reviews__title">Отзывы о нас</h2>
+						<a href="#" class="reviews__write btn">Оставить свой</a>
+						<div class="reviews__items">
+							<input type="radio" class="slider-nav__switcher" name="reviews" id="reviews-radio-1" checked>
+							<input type="radio" class="slider-nav__switcher" name="reviews" id="reviews-radio-2" >
+							<input type="radio" class="slider-nav__switcher" name="reviews" id="reviews-radio-3" >
+
+							<blockquote class="reviews__item reviews__item--active">
+								<div class="reviews__author-photo">
+									<img src="img/travis.jpg" alt="Фото Трэвиса Баркера" >
+								</div>
+								<cite class="reviews__author-name">Трэвис Баркер</cite>
+								<p>Спасибо за лысину! Был проездом в Москве, заскочил побриться, чтобы было видно новую татуировку!</p>								
+							</blockquote>
+							<blockquote class="reviews__item">
+								<div class="reviews__author-photo">
+									<img src="img/travis.jpg"  alt="Фото Джона Смита">
+								</div>
+								<cite class="reviews__author-name">Джон Смит</cite>
+								<p>Отличную стрижку мне сделали ребята.</p>
+							</blockquote>
+							<blockquote class="reviews__item">
+								<div class="reviews__author-photo">
+									<img src="img/travis.jpg"  alt="Фото Ивана Бородайло">
+								</div>
+								<cite class="reviews__author-name">Иван Бородайло</cite>
+								<p>В Бородинском ваша борода в надёжных руках!</p>
+							</blockquote>
+							<button class="reviews__toggle reviews__toggle--prev" type="button">Предыдущий отзыв</button>
+							<button class="reviews__toggle reviews__toggle--next" type="button">Следующий отзыв</button>
+
+							<div class="slider-nav reviews__nav">
+								<label for="reviews-radio-1" class="slider-nav__btn">1</label>
+								<label for="reviews-radio-2" class="slider-nav__btn">2</label>
+								<label for="reviews-radio-3" class="slider-nav__btn">3</label>
+							</div>
+						</div><!-- end of reviews-items -->
+					</div> <!-- end of reviews wrapper -->
+				</section> <!-- end of reviews -->
+			</main>
+		</div> <!-- end of wrapper -->
+		<footer class="page-footer">
+			<div class="page-footer__wrapper">
+				<section class="page-footer__contacts">
+					<b>Барбершоп «Бородинский»</b>
+					г. Санкт-Петербург, ул. Большая Конюшенная 19/8<br>
+					<a href="tel:+78125556666"><span class="page-footer__contacts-hidden">Тел.:</span> +7 (812) 555-66-66</a>
+				</section>
+				<section class="page-footer__social">
+					<div class="page-footer__social-title">Давайте дружить!</div>
+					<div class="social-links">
+						<a href="" class="social-link social-link--vk">Мы Вконтакте</a>
+						<a href="" class="social-link social-link--fb">Мы в Фейсбуке</a>
+						<a href="" class="social-link social-link--inst">Мы в Инстаграмме</a>
+					</div>
+				</section>
+				<section class="page-footer__copyright">
+					<div class="page-footer__copyright-title">Разработано:</div>
+					<a class="btn page-footer__copyright-link" href="https://htmlacademy.ru/intensive/adaptive">HTML Academy</a>
+				</section>
+			</div>
+		</footer>
+		<script>
+			var navToggle = document.querySelector('.main-nav__toggle');
+			var navWrapper = document.querySelector('.main-nav__wrapper');
+			var navActiveItem = document.querySelector('.main-nav__item--active');
+
+			navActiveItem.classList.add('main-nav__item--active-shown');
+
+			navToggle.addEventListener('click', function () {
+				if (navToggle.classList.contains('main-nav__toggle--closed')){
+					navToggle.classList.remove('main-nav__toggle--closed');
+					navToggle.classList.add('main-nav__toggle--opened');
+
+					navWrapper.classList.remove('main-nav__wrapper--closed');
+					navWrapper.classList.add('main-nav__wrapper--opened');
+
+					navActiveItem.classList.remove('main-nav__item--active-shown');
+
+				}
+				else{
+					navToggle.classList.add('main-nav__toggle--closed');
+					navToggle.classList.remove('main-nav__toggle--opened');
+
+					navWrapper.classList.add('main-nav__wrapper--closed');
+					navWrapper.classList.remove('main-nav__wrapper--opened');
+
+					navActiveItem.classList.add('main-nav__item--active-shown');
+				}
+			});
+		</script>
+	</body>
+	</html>

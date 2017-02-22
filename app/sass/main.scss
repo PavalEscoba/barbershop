@@ -1,0 +1,24 @@
+$footer-height: 100px;
+$container-width: 960px;
+$bg-darkgrey: #292929;
+$bg-lightgrey: #f8f5f2;
+$mobile: "max-width: 767px";
+$tablet:" min-width: 768px";
+$desktop: "min-width: 1200px";
+$main-font-color:  #f7f4f1;
+
+@import "_misc/font";
+@import "_misc/normalize";
+@import "_misc/mixins";
+@import "_misc/adjustment";
+
+
+@import "blocks/header";
+@import "blocks/main-nav";
+@import "blocks/promo-stats";
+@import "blocks/advantages";
+@import "blocks/news";
+@import "blocks/reviews";
+@import "blocks/footer";
+
+
